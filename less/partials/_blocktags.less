@@ -1,0 +1,40 @@
+html, body{
+	height: 100%;
+	margin: 0;	
+}
+h1{
+	.font-size(36);
+	font-weight: bold;
+}
+body{
+	font-family: 'Open Sans';
+	.wrapper{
+		min-height: 100%;
+		margin-bottom: -50px;
+		&__inside{
+			padding-bottom: 50px;
+		}
+	}
+}
+footer{
+	margin-top: 10px;
+}
+a{
+	color: @white;
+}
+a:hover{
+	color: @black;
+}
+form{
+	margin-top: 20px;
+}
+@media (max-width: 1200px) {
+	h1{
+		.font-size(30);
+	}
+}
+@media (max-width: 800px) {
+	h1{
+		.font-size(24);
+	}
+}

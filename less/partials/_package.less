@@ -1,0 +1,28 @@
+.packages{
+	margin-top: 15px;
+	&__col{
+		border: solid @orange 1px;
+		padding: 10px;
+	}
+	&__col:hover{
+		background-color: @old-lace;
+		cursor: pointer;
+	}
+	&__header{
+		margin-top: 0;
+	}
+}
+.btn-main{
+	background-color: @orange;
+	border-color: @orange;
+	color: @white;
+}
+.btn-main:hover{
+	background-color: @old-lace;
+	color: @black;
+}
+@media (max-width: 1100px) {
+	.packages__col{
+		margin-top: 15px;
+	}
+}
